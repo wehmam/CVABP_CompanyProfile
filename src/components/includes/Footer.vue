@@ -1,0 +1,57 @@
+<template>
+  <div class="footer">
+    <div class="container-fluid" style="background-color: darkgreen;">
+      <div class="row">
+        <div class="col-sm-3">
+          <br><br>
+          <img src="../../assets/logo.png" width="50" height="30" alt="">
+        </div>
+        <div class="col-sm-3" style="color: white">
+          <br><br>
+          <h3>Adress</h3><br>
+          
+          <!-- {{-- (Kolom untuk isi alamat) --}} -->
+          <div class="row">
+              <div class="col-md-8">
+            <!-- @foreach ($contact as $item)
+              <p>{{ $item->alamat }}</p>
+              <p>{{ $item->no_hp }}</p>
+            @endforeach -->
+          </div>
+        </div>
+
+
+        </div>
+        <div class="col-sm-3" style="color: white">
+          <br><br>
+          <h3>Menu Utama</h3><br>
+          <h6><a href="#" style="color: white">Home</a></h6>
+          <br>
+          <h6><a href="#" style="color: white">Product</a></h6>
+          <br>
+          <h6><a href="#" style="color: white">Client</a></h6>
+          <br>
+          <h6><a href="#" style="color: white">Contact Us</a></h6>
+        </div>
+        <div class="col-sm-3" style="color: white">
+          <br><br>
+          <h3>Follow Us</h3><br>
+          <h6><a href="#" style="color: white">Instagram</a></h6>
+          <br>
+          <h6><a href="#" style="color: white">Facebook</a></h6>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container-fluid text-center" id="footer1" style="background-color: darkgreen">
+      <div class="row">
+        <div class="col-sm-12">
+          <br>
+          <br>
+          <br>
+          <p style="color: whitesmoke;">Copyright PT. Fidi IT Kreatif 2020</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
